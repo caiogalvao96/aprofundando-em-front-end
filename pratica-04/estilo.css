@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.principal{
+    display: flex;
+    
+    
+}
+
+.sidebar{
+    background-color: blueviolet;
+    width: 20%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.conteudo{
+    background-color: aqua;
+    width: 80%;
+
+    padding: 10px;
+}
+
+.col{
+    background-color: bisque;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+
+    padding-top: 5px;
+    
+}
+
+.row{
+
+    height: 30px;
+    width: 100%;
+    background-color: beige;
+    margin-bottom: 20px;
+    
+ 
+
+}
+
+.perfil{
+    background-color: brown;
+    border-radius: 5px;
+    
+    
+    height: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 50px;
+}
+
+.navbar{
+    background-color: #283c63;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.conteudo-interno {
+    margin-top: 20px;
+    width: 100%;
+    height: 85vh;
+    background-color: #01579B;
+    border-radius: 5px;
+
+    display: flex;
+    padding: 10px;
+}
+
+.painel {
+    
+    width: 100%;
+    
+    background-color: grey;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+
+    width: 100%;
+
+    position: relative;
+
+    margin-bottom: 20px;
+
+    background-color: black;
+
+}
+
+.click{
+
+    background-color: #f85f73;
+
+    width: 300px;
+
+}
+
+.click:hover {
+
+    background-color: #B71C1C;
+
+}
+
+.click,.links {
+
+    padding: 12px;
+
+    font-size: 1.2em;
+
+    font-family: futura Md BT;
+
+    border: none;
+
+    outline: none;
+
+    width: 100%;
+
+    color:#fff;
+
+    transition: 0.3s;
+
+}
+
+.list {
+
+    position:  absolute;
+
+    transform: scaleY(0);
+
+    transform-origin: top;
+
+    transition: 0.3s;
+
+}
+
+.newlist {
+
+    transform: scaleY(1);
+
+}
+
+.links {
+
+    background-color: #283c63;
+
+}
+
+.links:hover {
+
+    background-color: #01579B;
+
+    transform: scale(1.1);
+
+}
