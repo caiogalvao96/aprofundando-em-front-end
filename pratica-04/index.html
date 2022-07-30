@@ -17,10 +17,9 @@
                     <p>Caio Galvao</p>
                     <p>Admin</p>
                 </div>
-                <div class="row"></div>
                 <div class="container">
-                    <button class="click">Clique aqui</button>
-                    <div class="list">
+                    <button id="btn-3" class="click"  onclick="teste('list3')">Clique aqui</button>
+                    <div id="list3" class="list">
                         <button class="links">Link 1</button>
                         <button class="links">Link 2</button>
                         <button class="links">Link 3</button>
@@ -29,8 +28,18 @@
                     </div>
                 </div>
                 <div class="container">
-                    <button class="click">Clique aqui</button>
-                    <div class="list">
+                    <button id="btn-1" class="click" onclick="teste('list1')" >Clique aqui</button>
+                    <div id="list1" class="list">
+                        <button class="links">Link 1</button>
+                        <button class="links">Link 2</button>
+                        <button class="links">Link 3</button>
+                        <button class="links">Link 4</button>
+                        <button class="links">Link 5</button>
+                    </div>
+                </div>
+                <div class="container">
+                    <button id="btn-2" class="click" onclick="teste('list2')">Clique aqui</button>
+                    <div id="list2" class="list">
                         <button class="links">Link 1</button>
                         <button class="links">Link 2</button>
                         <button class="links">Link 3</button>
@@ -56,12 +65,15 @@
 
 
     <script>
-        let click = document.querySelector('.click');
-        let list = document.querySelector('.list');
-        click.addEventListener("click", ()=>{
-            list.classList.toggle('newlist');
-        });
+       function teste(iddiv){
+    
+        let list = document.getElementById(iddiv);
+        list.classList.toggle('newlist');
+       }
+    
     </script>
+
+    
 
 </body>
 </html>
